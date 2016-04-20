@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale.xml
+  *
+  * Copyright (c) 2006-2009 Gunther Eysenbach, Juan Pablo Alperin, MJ Suhonos
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the en_US (U.S. English) locale.
+  *
+ -->
+ 
+<locale name="en_US" full_name="U.S. English">
+	<message key="plugins.paymethod.paypal.displayName">Paypal</message>
+
+	<!-- PayPal Settings Form -->
+	<message key="plugins.paymethod.paypal.settings.paypalenable">PayPal aktivieren</message>
+	<message key="plugins.paymethod.paypal.settings.paypalurl">IPN URL</message>
+	<message key="plugins.paymethod.paypal.settings.paypalurl.description"><![CDATA[Dies ist die URL für den sofortigen Benachrichtigungsservice über eine Zahlung mit PayPal (PayPal's Instant Payment Notification -IPN). Für einen Testlauf nutzen Sie bitte <u>https://www.sandbox.paypal.com/cgi-bin/webscr</u>; für ein laufendes System nutzen Sie bitte<u>https://www.paypal.com/cgi-bin/webscr</u>.]]></message>
+	<message key="plugins.paymethod.paypal.settings.selleraccount">Verkäuferkonto</message>
+	<message key="plugins.paymethod.paypal.settings.selleraccount.description">Dies ist der PayPal-Konto Nutzername, der für das Verkäuferkonto genutzt werden kann, klassischerweise eine E-Mail Adresse.</message>
+	<message key="plugins.paymethod.paypal.settings.curlNotInstalled">Warnung: CURL support für PHP ist nicht installiert. Der PayPal Zahlungssupport erfordert die CURL Bibliothek und funktioniert nur durch sie Installierung.</message>
+	<message key="plugins.paymethod.paypal.settings">PayPal Einstellungen</message>
+
+	<!-- PayPal -->
+	<message key="plugins.paymethod.paypal">PayPal Zahlung</message>
+	<message key="plugins.paymethod.paypal.description"><![CDATA[Das PayPal Plug-In ermöglicht es Nutzern wenn sie mit dem System bezahlen alle gängigen Kreditkarten dafür zu nutzen sowie eChecks. Egal ob sie PayPal-Mitglieder sind oder nicht. Der Konferenzmanager muss ein a <a href="http://www.paypal.com" target="_new">PayPal Firmenkonto </a> anlegen, um diese Option der Zahlungsart zu Nutzen.]]></message>
+	<message key="plugins.paymethod.paypal.warning">Wenn Sie "Weiter" anklicken, werden Sie auf die PayPal-Webseite weitergeleitet. Nachdem Sie mit PayPal Ihre Zahlung abgeschlossen haben, können Sie den "Zurück zum Händler"- Button anklicken, um zu dieser Webseite zurückzukehren.</message>
+	<message key="plugins.paymethod.paypal.purchase.amount">Betrag</message>
+	<message key="plugins.paymethod.paypal.purchase.description">Beschreibung der geplanten Konferenz</message>
+	<message key="plugins.paymethod.paypal.purchase.cancelled">Ihre Zahlungsvorgang wurde abgebrochen.</message>
+	<message key="plugins.paymethod.paypal.purchase.cancelled.title">Zahlungsvorgang Abgebrochen</message>
+</locale>

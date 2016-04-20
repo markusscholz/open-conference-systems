@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale.xml
+  *
+  * Copyright (c) 2000-2012 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the en_US (U.S. English) locale.
+  *
+  * $Id$
+  -->
+
+<locale name="en_US" full_name="U.S. English">
+	<message key="plugins.reports.reviews.displayName">Gutachten Bericht</message>
+	<message key="plugins.reports.reviews.description">Dieses Plug-In erstellt einen CSV-Bericht, der eine Liste mit Gutachtenanweisungen für die Konferenz enthält.</message>
+	<message key="plugins.reports.reviews.reviewerId">Gutachter ID</message>
+	<message key="plugins.reports.reviews.reviewer">Gutachter</message>
+	<message key="plugins.reports.reviews.dateAssigned">Datum der Zuteilung</message>
+	<message key="plugins.reports.reviews.dateNotified">Benachrichtigungsdatum</message>
+	<message key="plugins.reports.reviews.dateConfirmed">Bestätigungsdatum</message>
+	<message key="plugins.reports.reviews.dateCompleted">Ausführungsdatum</message>
+	<message key="plugins.reports.reviews.dateReminded">Erinnerungsdatum</message>
+</locale>
+

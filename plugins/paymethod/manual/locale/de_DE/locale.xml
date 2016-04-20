@@ -12,7 +12,15 @@
  -->
  
 <locale name="de_DE" full_name="Deutsch">
-	<message key="plugins.paymethod.manual.displayName">Überweisung</message>
+	<message key="plugins.paymethod.manual.displayName">Manuelle Gebührenzahlung</message>
 	<message key="plugins.paymethod.manual.description">Zahlungen werden unabhängig vom OCS abgewickelt und erfordern daher, dass der Konferenzmanager diese überprüft, bevor Teilnehmerregistrierungen vollständig akzeptiert werden.</message>
-	<message key="plugins.paymethod.manual">Überweisung</message>
+	<message key="plugins.paymethod.manual">Manuelle Gebührenzahlung</message>
+	<message key="plugins.paymethod.manual.sendNotificationOfPayment">Senden Sie eine Benachrichtigung über die Zahlung.</message>
+	<message key="plugins.paymethod.manual.paymentNotification">Zahlungsbenachrichtigung</message>
+	<message key="plugins.paymethod.manual.notificationSent">Die Zahlungsbenachrichtigung wurde versendet.</message>
+	<message key="plugins.paymethod.manual.purchase.title">Titel</message>
+	<message key="plugins.paymethod.manual.purchase.fee">Gebühr</message>
+	<message key="plugins.paymethod.manual.settings.instructions">Anleitung</message>
+	<message key="plugins.paymethod.manual.settings.manualInstructions">Die Anleitung zur Bezahlung von Gebühren für Nutzer, die die manuelle Gebührenzahlung ausgewählt haben</message>
+	<message key="plugins.paymethod.manual.settings">Einstellungen für die manuelle Zahlung</message>
 </locale>

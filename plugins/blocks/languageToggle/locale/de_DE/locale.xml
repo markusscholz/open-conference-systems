@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale.xml
+  *
+  * Copyright (c) 2000-2012 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the en_US (U.S. English) locale.
+  *
+  * $Id$
+  -->
+ 
+<locale name="en_US" full_name="U.S. English">
+	<message key="plugins.block.languageToggle.displayName">Sprachen-Toggle-Block</message>
+	<message key="plugins.block.languageToggle.description">Dieses Plug-In erzeugt den Sprachen-Toggler (hin- und Herschalten zwischen den Sprachen) in der Seitenleiste.</message>
+</locale>

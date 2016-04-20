@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale.xml
+  *
+  * Copyright (c) 2000-2012 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the en_US (U.S. English) locale.
+  *
+  * $Id$
+  -->
+ 
+<locale name="en_US" full_name="U.S. English">
+	<message key="plugins.importexport.nlm.displayName">NLM XML-Exportieren Plug-In</message>
+	<message key="plugins.importexport.nlm.description">Exportieren Sie die Paper-Metadaten zur Indizierung im NLM Meeting Abstracts XML Format.</message>
+
+	<message key="plugins.importexport.nlm.export">Daten exportieren</message>
+	<message key="plugins.importexport.nlm.export.papers">Papers Exportieren</message>
+	<message key="plugins.importexport.nlm.export.selectPaper">Papers zum Exportieren auswählen.</message>
+	
+	<message key="plugins.importexport.nlm.cliUsage">Verwendung: 
+{$scriptName} {$pluginName} [xmlFileName] [conference_path] papers [paperId1] [paperId2] ...</message>
+	<message key="plugins.importexport.nlm.cliError">Fehler:</message>
+
+	<message key="plugins.importexport.nlm.export.error.paperNotFound">Zur angegebenen Paper ID "{$paperId}" konnte kein passendes Paper gefunden werden.</message>
+	<message key="plugins.importexport.nlm.export.error.unknownConference">Unbekannter Konferenzpfad {$conferencePath}</message>
+	<message key="plugins.importexport.nlm.export.error.couldNotWrite">Konnte die vorgegebene Datei "{$fileName}" nicht</message>
+</locale>

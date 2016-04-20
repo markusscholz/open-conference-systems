@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale.xml
+  *
+  * Copyright (c) 2000-2012 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the en_US (U.S. English) locale.
+  *
+  * $Id$
+  -->
+
+<locale name="en_US" full_name="U.S. English">
+	<message key="default.paperType.individual.name"></message>
+	<message key="default.paperType.individual.description"></message>
+	<message key="default.paperType.panel.name"></message>
+	<message key="default.paperType.panel.description"></message>
+	<message key="track.default.title"></message>
+	<message key="track.default.abbrev"></message>
+	<message key="track.default.policy"></message>
+	<message key="default.conferenceSettings.copyrightNotice"></message>
+
+	<message key="default.schedConfSettings.checklist.notPreviouslyPublished"></message>
+	<message key="default.schedConfSettings.checklist.fileFormat"></message>
+	<message key="default.schedConfSettings.checklist.addressesLinked"></message>
+	<message key="default.schedConfSettings.checklist.submissionAppearance"></message>
+	<message key="default.schedConfSettings.checklist.anonymous"></message>
+	<message key="default.schedConfSettings.checklist.personalInformationRemoved"></message>
+	<message key="default.conferenceSettings.privacyStatement"></message>
+	<message key="default.conferenceSettings.authorSelfArchivePolicy"></message>
+	<message key="default.conferenceSettings.emailSignature"></message>
+	<message key="default.conferenceSettings.forReaders"></message>
+	<message key="default.conferenceSettings.forAuthors"></message>
+	<message key="default.conferenceSettings.lockssLicense"></message>
+
+	<message key="default.schedConfSettings.emailSignature"></message>
+	<message key="default.conferenceSettings.archiveAccessPolicy"></message>
+	<message key="default.schedConfSettings.checklist.bibliographicRequirements"></message>
+	<message key="default.schedConfSettings.forReaders"></message>
+	<message key="default.schedConfSettings.forAuthors"></message>
+</locale>

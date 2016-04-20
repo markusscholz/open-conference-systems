@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale.xml
+  *
+  * Copyright (c) 2000-2012 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the en_US (U.S. English) locale.
+  *
+  * $Id$
+  -->
+ 
+<locale name="en_US" full_name="U.S. English">
+	<message key="plugins.importexport.users.displayName">Users XML Plugin</message>
+	<message key="plugins.importexport.users.description">Nutzer importieren und exportieren</message>
+
+	<message key="plugins.importexport.users.cliUsage">Verwendung: {$scriptName} {$pluginName} [command] ...
+Befehle:
+	import [xmlFileName] [sched_conf_path] [optional flags]
+	export [xmlFileName] [sched_conf_path]
+	export [xmlFileName] [sched_conf_path] [role_path1] [role_path2] ...
+
+Optionale Flags:
+	continue_on_error: If specified, do not stop importing users if an error occurs
+
+	send_notify: If specified, send notification emails containing usernames
+		and passwords to imported users
+
+Beispiele:
+	Import users into mySchedConf from myImportFile.xml, continuing on error:
+	{$scriptName} {$pluginName} import myImportFile.xml mySchedConf continue_on_error
+
+	Export all users from mySchedConf:
+	{$scriptName} {$pluginName} export myExportFile.xml mySchedConf
+
+	Export all users registered as reviewers, along with their reviewer roles only:
+	{$scriptName} {$pluginName} export myExportFile.xml mySchedConf reviewer</message>
+	<message key="plugins.importexport.users.import.importUsers">Nutzer importieren</message>
+	<message key="plugins.importexport.users.import.instructions"><![CDATA[Wählen Sie eine XML Datei mit Nutzerinformationen, um Sie in die vorgesehene Konferenz zu importieren.
+Gehen Sie auf "Hilfe für die geplante Konferenz" für genauere Informationen zum Format dieser Datei.<br /><br /> Beachten Sie: wenn die importierte Datei Nutzernamen oder e-mail Adressen enthält, die bereits in dem System existieren dann werden die Daten für diese Nutzer nicht importiert und etwaige, neu erstellte Rollen werden den existierenden Nutzern zugeschrieben.]]></message>
+	<message key="plugins.importexport.users.import.failedToImportUser">Das Importieren des Nutzers ist fehlgeschlagen</message>
+	<message key="plugins.importexport.users.import.failedToImportRole">Das Zuweisen einer Rolle zu dem Nutzer ist fehlgeschlagen</message>
+	<message key="plugins.importexport.users.import.dataFile">Nutzerdatei</message>
+	<message key="plugins.importexport.users.import.sendNotify">Sende eine Benachrichtigungs-E-Mail an jeden importierten Nutzer mit seinem Nutzernamen und Passwort.</message>
+	<message key="plugins.importexport.users.import.continueOnError">Fahre mit dem</message>
+	<message key="plugins.importexport.users.import.noFileError">Es wurde kein Datei hochgeladen.</message>
+	<message key="plugins.importexport.users.import.usersWereImported">The following users were successfully imported into the system</message>
+	<message key="plugins.importexport.users.import.errorsOccurred">Während der Importieren sind Fehler aufgetreten</message>
+	<message key="plugins.importexport.users.import.confirmUsers">Bestätigen Sie, dass dies die Nutzer sind, die Sie in das System importieren möchten.</message>
+	<message key="plugins.importexport.users.import.warning">Warnung</message>
+	<message key="plugins.importexport.users.import.encryptionMismatch">Mit {$importHash} gehashte Passwörter können nicht verwendet werden; OCS wurde dafür konfiguriert {$ocsHash} zu nutzen. Wenn Sie fortfahren, werden Sie das Passwort des importierten Nutzers zurücksetzen müssen.</message>
+	<message key="plugins.importexport.users.unknownSchedConf">Ein unbekannter Pfad"{$schedConfPath}" einer geplanten Konferenz wurde bestimmt.</message>
+
+	<message key="plugins.importexport.users.export.exportUsers">Nutzer Exportieren</message>
+	<message key="plugins.importexport.users.export.exportByRole">Nach Rollen aufgeteilt exportieren</message>
+	<message key="plugins.importexport.users.export.exportAllUsers">Alle exportieren</message>
+	<message key="plugins.importexport.users.export.errorsOccurred">Während dem Exportieren sind Fehler aufgetreten</message>
+	<message key="plugins.importexport.users.export.couldNotWriteFile">Konnte nicht in die Datei übertragen werden"{$fileName}".</message>
+</locale>

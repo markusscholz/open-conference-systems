@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../dtd/locale.dtd">
+
+<!--
+  * locale/en_US/grid.xml
+  *
+  * Copyright (c) 2000-2012 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the en_US (English) locale.
+  *
+  * $Id$
+  -->
+
+<locale name="en_US" full_name = "English">
+	<!-- Common -->
+	<message key="grid.noItems"></message>
+	<message key="grid.settings"></message>
+
+	<message key="grid.action.sort"></message>
+	<message key="grid.action.addItem"></message>
+	<message key="grid.action.delete"></message>
+	<message key="grid.action.edit"></message>
+	<message key="grid.action.restoreDefaults"></message>
+
+	<!-- Common Grid Column Titles -->
+	<message key="grid.columns.actions"></message>
+	<message key="grid.columns.institution"></message>
+	<message key="grid.columns.url"></message>
+
+	<!-- Sponsors Grid -->
+	<message key="grid.sponsor.title"></message>
+
+	<!-- Masthead Grid -->
+	<message key="grid.masthead.title"></message>
+	<message key="grid.masthead.column.groups"></message>
+
+	<!-- Contributor Grid -->
+	<message key="grid.contributor.title"></message>
+
+	<!-- Review Forms Grid -->
+	<message key="grid.reviewForm.title"></message>
+
+	<!-- Book File Types Grid -->
+	<message key="grid.bookFileType.form.sortable"></message>
+
+	<!-- Artwork Files Grid -->
+	<message key="grid.artworkFile.title"></message>
+	<message key="grid.artworkFile.file"></message>
+	<message key="grid.artworkFile.form.title"></message>
+	<message key="grid.artworkFile.form.metadata"></message>
+	<message key="grid.artworkFile.caption"></message>
+	<message key="grid.artworkFile.credit"></message>
+	<message key="grid.artworkFile.copyrightOwner"></message>
+	<message key="grid.artworkFile.copyrightContact"></message>
+	<message key="grid.artworkFile.permissionTerms"></message>
+	<message key="grid.artworkFile.permissionForm"></message>
+	<message key="grid.artworkFile.type"></message>
+	<message key="grid.artworkFile.type.table"></message>
+	<message key="grid.artworkFile.type.figure"></message>
+	<message key="grid.artworkFile.placement"></message>
+	<message key="grid.artworkFile.placementDetail"></message>
+	<message key="grid.artworkFile.contactAuthor"></message>
+
+	<!-- Library Files -->
+	<message key="grid.libraryFiles.column.files"></message>
+	<message key="grid.libraryFiles.submission.title"></message>
+	<message key="grid.libraryFiles.editorial.title"></message>
+	<message key="grid.libraryFiles.review.title"></message>
+	<message key="grid.libraryFiles.production.title"></message>
+	<message key="grid.libraryFiles.productionTemplate.title"></message>
+
+	<!-- SubmissionChecklist -->
+	<message key="grid.submissionChecklist.title"></message>
+	<message key="grid.submissionChecklist.column.checklistItem"></message>
+
+	<!-- Submission Contributors -->
+	<message key="author.users.contributor.name"></message>
+	<message key="author.users.contributor.email"></message>
+	<message key="author.users.contributor.role"></message>
+	<message key="author.users.contributor.principalContact"></message>
+
+	<!-- Chapters -->
+	<message key="grid.chapters.title"></message>
+</locale>

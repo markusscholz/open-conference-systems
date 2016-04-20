@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale.xml
+  *
+  * Copyright (c) 2000-2012 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the en_US (U.S. English) locale.
+  *
+  * $Id$
+  -->
+ 
+<locale name="en_US" full_name="U.S. English">
+	<message key="plugins.generic.customBlockManager.displayName">Custom Block Manager</message>
+	<message key="plugins.generic.customBlockManager.description">Dieses Plug-In ermöglicht es Ihnen benutzerdefinierte Blöcke in der Sidebar zu verwalten.
+Sie können die Blöcke in den Einstellungen jedes einzelnen Plug-Ins, dass Sie hier erstellen bearbeiten.</message>	
+	<message key="plugin.generic.customBlockManager.introduction"><![CDATA[Sie können dieses Plug-In verwenden um benutzerdefinierte Block Plug-Ins hinzuzufügen oder zu löschen.
+Sie können den Inhalt bearbeiten indem Sie auf die <a href="{$systemPluginsUrl}">System Plug-Ins</a> Seite gehen (in der Sparte: Blocks Plug-In)]]></message>
+	<message key="plugins.generic.customBlockManager.settings">Einstellungen</message>
+	<message key="plugins.generic.customBlockManager.blockName">Blockname</message>	
+	<message key="plugins.generic.customBlockManager.action">Aktion</message>	
+	<message key="plugins.generic.customBlockManager.delete">Löschen</message>	
+	<message key="plugins.generic.customBlockManager.addBlock">Block hinzufügen</message>	
+
+	<message key="plugins.generic.customBlock.content">Inhalt</message>
+	<message key="plugins.generic.customBlock.saved">Der Inhalt des Blocks wurde gespeichert.</message>
+	<message key="plugins.generic.customBlock.nameSuffix">(Benutzerdefiniertes Block Plug-In)</message>
+	<message key="plugins.generic.customBlock.description">Dieser Block wurde vom Nutzer generiert.</message>
+	<message key="plugins.generic.customBlock.editContent">Den Inhalt der Sidebar bearbeiten</message>
+	<message key="plugins.generic.customBlock.contentRequired">Es muss irgendeine Art von Inhalt vorhanden sein. Wenn Sie diesen Block komplett löschen möchten, können Sie das mit dem Block Manager Plug-In machen oder indem sie für diesen Block im Schritt 5 des Set-Ups die Auswahl aufheben.</message>
+	<message key="plugins.generic.customBlock.edit">Bearbeiten</message>
+</locale>

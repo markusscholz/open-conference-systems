@@ -18,7 +18,7 @@
 	<message key="about.contact.email">E-Mail</message>
 	<message key="about.contact.fax">Fax</message>
 	<message key="about.contact.phone">Telefon</message>
-	<message key="about.contact.principalContact">Hauptkontakt </message>
+	<message key="about.contact.principalContact">Hauptkontakt</message>
 	<message key="about.contact.supportContact">Kontakt bei technischen Fragen</message>
 	<message key="about.other">Sonstiges</message>
 	<message key="about.people">Personen</message>
@@ -179,7 +179,7 @@
 	<message key="email.cc">CC</message>
 	<message key="email.compose">Nachricht senden</message>
 	<message key="email.compose.tooManyRecipients">Ihre Nachricht hat zu viele Empfänger/innen.</message>
-	<message key="email.compose.tooSoon">Sie versuchen, eine Nachricht zu früh nach Ihrer letzten Nachricht zu versenden. Bitte warten Sie ein wenig, bevor Sie eine weitere Nachricht versenden.></message>
+	<message key="email.compose.tooSoon"><![CDATA[Sie versuchen, eine Nachricht zu früh nach Ihrer letzten Nachricht zu versenden. Bitte warten Sie ein wenig, bevor Sie eine weitere Nachricht versenden.>]]></message>
 	<message key="email.email">E-Mail</message>
 	<message key="email.from">Von</message>
 	<message key="email.invalid">Die E-Mail-Adresse {$email} ist ungültig.</message>
@@ -208,7 +208,7 @@
 	<message key="help.matchesFound">{$matches} Resultate</message>
 	<message key="help.noMatchingTopics">Es wurden keine entsprechende Hilfethemen gefunden.</message>
 	<message key="help.relatedTopics">Verwandte Beiträge</message>
-	<message key="help.searchFor">Hilfethemen suchen zu </message>
+	<message key="help.searchFor">Hilfethemen suchen zu</message>
 	<message key="help.searchResultsFor">Suchergebnisse für</message>
 	<message key="help.searchResults">Suchergebnisse</message>
 	<message key="help.search">Suchhilfe</message>
@@ -264,7 +264,7 @@
 	<message key="search.reviseSearch">Suche bearbeiten</message>
 	<message key="search.searchAllCategories">Alle Kategorien durchsuchen nach</message>
 	<message key="search.searchCategories">Suchkategorien</message>
-	<message key="search.searchResults"> Ergebnis der Suche</message>
+	<message key="search.searchResults">Ergebnis der Suche</message>
 	<message key="search.subject">Thema</message>
 	<message key="search.titleIndex">Titelverzeichnis durchsuchen</message>
 	<message key="search.title">Titel</message>
@@ -314,4 +314,9 @@
 		Diese Arbeit steht unter einer <a rel="license" href="http://creativecommons.org/licenses/by/3.0/" target="_new">Creative Commons Attribution 3.0 License</a>.
 	</div>]]></message>
 	<message key="common.uploadFailed">Die Datei konnte nicht hochgeladen werden. Bitte probieren Sie es erneut oder benachrichtigen Sie den/die Administrator/in, wenn das Problem weiter besteht.</message>
+	<message key="common.false">Falsch</message>
+	<message key="common.refresh">Aktualisieren</message>
+	<message key="common.ok">OK</message>
+	<message key="common.true">Korrekt</message>
+	<message key="navigation.dashboard">Übersichtsseite</message>
 </locale>
